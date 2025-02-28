@@ -15,9 +15,9 @@ const CookiePopup = () => {
       {!showSettings && (
         <CookieConsent
           location="bottom"
-          buttonText="Прийняти всі"
+          buttonText="Прийняти всі✅"
           enableDeclineButton
-          declineButtonText="Відхилити"
+          declineButtonText="Відхилити❌"
           onAccept={() => {
             document.cookie = "analytics=true; path=/;";
             document.cookie = "marketing=true; path=/;";
@@ -29,7 +29,7 @@ const CookiePopup = () => {
         >
           Ми використовуємо файли cookie для покращення вашого досвіду.
           <button onClick={() => setShowSettings(true)} className="ml-2 underline">
-            Налаштування
+            Налаштування⚙
           </button>
         </CookieConsent>
       )}
@@ -58,7 +58,7 @@ const CookiePopup = () => {
               /> Маркетингові (Facebook Pixel)
             </label>
 
-            <button onClick={handleSavePreferences} className="mt-2 bg-blue-500 text-white px-4 py-2 max-w-xs">
+            <button onClick={handleSavePreferences} className="mt-2 bg-green-600 text-white px-4 py-2 max-w-xs">
               Зберегти налаштування
             </button>
           </div>
