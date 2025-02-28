@@ -18,3 +18,15 @@ a {
   color: #0087CD;
   text-decoration: none;
 }
+
+/* Додаємо стиль для банера cookie */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 16px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999; /* Великий z-index, щоб перекривав усі елементи */
+}
