@@ -1,5 +1,5 @@
 Privacy Policy
-Last updated: 26.02.2025
+Last updated: 28.02.2025
 
 This Privacy Policy outlines how we collect, use, and protect your data, as well as your rights under the General Data Protection Regulation (GDPR).
 
@@ -36,6 +36,6 @@ Right to Rectification: You can update or correct any inaccuracies in your perso
 Right to Erasure: You can request the deletion of your personal data from our systems.
 7. Contact Information
 If you have any questions or concerns regarding this Privacy Policy, please contact us at:
-support@drn.com
+support@event-platform.com
 
 By using our website and services, you acknowledge that you have read and understand this Privacy Policy and agree to the collection and use of your data as described.

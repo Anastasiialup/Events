@@ -1,4 +1,3 @@
-```md
 # **BrightCity Events – Online Event Management System**  
 
 BrightCity Events is a web application for managing events in the city. Users can view upcoming events, register for them, and organizers can create their own events.  
@@ -21,20 +20,20 @@ BrightCity Events is a web application for managing events in the city. Users ca
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-username/brightcity-events.git
-   cd brightcity-events
+   git clone https://github.com/Anastasiialup/Events.git
+   cd Events
    ```
 
 2. **Start the backend**  
    ```sh
-   cd server  
+   cd events-service  
    npm install  
    npm run start:dev  
    ```
 
 3. **Start the frontend**  
    ```sh
-   cd client  
+   cd events-client
    npm install  
    npm start  
    ```
@@ -64,4 +63,3 @@ BrightCity Events is a web application for managing events in the city. Users ca
 - 📜 **[Privacy Policy](#)**
 - 📜 **[User Agreement](#)**
 - 📜 **[Codeowners](#)**
-```

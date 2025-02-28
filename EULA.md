@@ -1,5 +1,5 @@
 **End User License Agreement (EULA)**  
-_Last updated: 26.02.2025_
+_Last updated: 28.02.2025_
 
 This End User License Agreement (EULA) outlines the terms under which you may use our software. By installing or using the software, you agree to comply with the terms set forth in this agreement.
 
@@ -31,6 +31,6 @@ We may terminate your rights to use the software if you violate any terms of thi
 
 ### 7. **Contact Information**
 For questions or support regarding this agreement, please contact us at:  
-**support@drn.com**
+**support@event-platform.com**
 
 By using this software, you acknowledge that you have read and understood the terms of this EULA.
