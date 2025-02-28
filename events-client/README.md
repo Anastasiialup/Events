@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# **Events Management System – Client Project**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Local Development Setup**
 
-Currently, two official plugins are available:
+1. **Run Backend Project**:  
+   See Backend service README.md for setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Run Codegen Command**:  
+   ```sh
+   npm run codegen
+   ```
 
-## Expanding the ESLint configuration
+3. **Install Dependencies**:
+   ```sh
+   npm install
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Development Server**
 
-- Configure the top-level `parserOptions` property like this:
+1. **Start the Development Server**:
+   ```sh
+   npm run dev
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+2. **Open the Application in Your Browser** at:  
+   [http://localhost:5173/](http://localhost:5173/)
+
+## **Generating Codegen Types for Event Service**
+
+Any changes to the backend schema should be fetched by our Codegen to update generated types. To do this, simply run the script from `package.json` by running the following command:
+```sh
+npm run codegen
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Codegen is configured to download the schema from the dev instance of the event service, so please ensure that your PR with schema changes is merged. Otherwise, the schema won't be updated.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+When types are generated, you can import what you need from `src/generated/graphql.types.ts` file.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## **Starting Storybook for Events Client**
+
+1. **Start the Storybook**:
+   ```sh
+   npm run storybook
+   ```
+
+2. **Open Storybook in Your Browser** at:  
+   [http://localhost:6006/](http://localhost:6006/)
