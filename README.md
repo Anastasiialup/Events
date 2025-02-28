@@ -6,13 +6,15 @@ BrightCity Events is a web application for managing events in the city. Users ca
 - 🔹 **Event Viewing** – users can view a list of events with detailed descriptions.  
 - 🔹 **Event Registration** – the ability to register and receive a confirmation of participation.  
 - 🔹 **Event Management** – organizers can create, edit, and manage events.  
-- 🔹 **Personal Account** – users can track their registrations.  
-- 🔹 **Search and Filter** – search events by date, category, and location.  
+
+## **Features that will be added in the next update**
+- 🔹 **Personal Account** – users can track their registrations.
+- 🔹 **Search and Filter** – search events by date, category, and location.
 
 ## **Technology Stack**  
-- **Frontend**: React, TypeScript  
-- **Backend**: NestJS, TypeScript  
-- **Database**: MongoDB  
+- **Backend**: NestJS, TypeScript
+- **Frontend**: React, TypeScript
+- **DB**: MongoDB  
 
 ## **Project Setup**  
 
@@ -38,9 +40,6 @@ BrightCity Events is a web application for managing events in the city. Users ca
    npm start  
    ```
 
-4. **Check the API Documentation**  
-   Open in your browser [http://localhost:5000/api/docs](http://localhost:5000/api/docs) (Swagger)
-
 ## **How to Contribute**
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -48,18 +47,17 @@ BrightCity Events is a web application for managing events in the city. Users ca
 
 ## **Contributors**
 - **[Lupashyna Anastasiia]** – Full Stack Developer
-- **Front Endovich** – Frontend Developer
-- **Back Endovich** – Backend Developer
 
-## **Documentation**
-- 📖 **[BrightCity Events Wiki](#)**
-- 📜 **[Client README](#)**
-- 📜 **[Client license-report.txt](#)**
-- 📜 **[Server README](#)**
-- 📜 **[Server license-report.txt](#)**
+## Link to GitHub Wiki documentation:
+- [Documentation](https://github.com/Anastasiialup/Events/wiki)
 
-## **Legal Information**
-- 📜 **[License](#)**
-- 📜 **[Privacy Policy](#)**
-- 📜 **[User Agreement](#)**
-- 📜 **[Codeowners](#)**
+## Client and Service README:
+- [Client ReadMe](drn-client%2FREADME.md)
+- - [Client license-report.txt](drn-client%2Flicense-report.txt)
+- [Service ReadMe](drn-service%2FREADME.md)
+- - [Service license-report.txt](drn-service%2Flicense-report.txt)
+
+## Legal information
+- 📜 [Project License](LICENSE)
+- 📜 [End User License Agreement](EULA.md)
+- 📜 [Privacy Policy](PRIVACY_POLICY.md)
