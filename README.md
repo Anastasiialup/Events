@@ -52,8 +52,8 @@ BrightCity Events is a web application for managing events in the city. Users ca
 - [Documentation](https://github.com/Anastasiialup/Events/wiki)
 
 ## Client and Service README:
-- [Client ReadMe](drn-client%2FREADME.md) - [Client license-report.txt](drn-client%2Flicense-report.txt)
-- [Service ReadMe](drn-service%2FREADME.md) - [Service license-report.txt](drn-service%2Flicense-report.txt)
+- [Client ReadMe](https://github.com/Anastasiialup/Events/blob/master/events-client/README.md) - [Client license-report.txt](https://github.com/Anastasiialup/Events/blob/master/events-client/license-report.txt)
+- [Service ReadMe](https://github.com/Anastasiialup/Events/blob/master/events-service/README.md) - [Service license-report.txt](https://github.com/Anastasiialup/Events/blob/master/events-service/license-report.txt)
 
 ## Legal information
 - 📜 [Project License](LICENSE)
